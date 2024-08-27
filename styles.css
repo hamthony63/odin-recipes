@@ -3,6 +3,7 @@
     text-align:center;    
     font-family: Arial, Helvetica, sans-serif;
     color:black;
+    font-size: large;
 }
 .home.page {
     background-color:rgb(225, 127, 88);
@@ -11,7 +12,7 @@
     background-color:rgb(163, 47, 47);
 }
 .fettucine.page {
-    background-color: rgb(244, 244, 213);
+    background-color:rgba(190, 165, 21, 0.829);
 }
 .toscana.page {
     background-color: rgb(0, 179, 255);
@@ -22,20 +23,20 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
-.description {
-    font-size: large;
+.subheader.font{
+    color:whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large;
 }
 .recipe.description {
     text-align: left;
 }
 .list {
-    font-size: large;
     display: inline-block;
     text-align:left
 }
 
 .home-link {
     text-align: left;
-    font-size: large;
 }
 
