@@ -6,6 +6,9 @@ body {
     color:black;
     font-size: large;   
 }
+div, .page-title, .subheader{
+    border: 5px solid black;
+}
 .page {
     margin: 20px auto;
     padding: 40px;
@@ -29,7 +32,7 @@ body {
     background-color:beige;
     margin-bottom: 10px;
     padding: 10px;
-
+    
 }
 .content {
     background-color:beige;
