@@ -1,27 +1,40 @@
 /* CSS style for odin recipes. */
-.page {
+body {
+    background-color:rgba(230, 230, 230, 0.997);
     text-align:center;    
     font-family: Arial, Helvetica, sans-serif;
     color:black;
-    font-size: large;
+    font-size: large;   
 }
-.home.page {
-    background-color:rgb(225, 127, 88);
+.page {
+    margin: 20px auto;
+    padding: 40px;
 }
-.chicken.page{
+.home {
+    background-color:rgb(236, 122, 77);
+}
+.chicken {
     background-color:rgb(163, 47, 47);
 }
-.fettucine.page {
+.fettucine {
     background-color:rgba(190, 165, 21, 0.829);
 }
-.toscana.page {
+.toscana{
     background-color: rgb(0, 179, 255);
 }
-.header {
+.page-title {
     font-size: xx-large;
     font-weight:800;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color:beige;
+    margin-bottom: 10px;
+    padding: 10px;
 
+}
+.content {
+    background-color:beige;
+    margin-bottom: 10px;
+    padding: 25px;
 }
 .subheader.font{
     color:whitesmoke;
@@ -32,8 +45,9 @@
     text-align: left;
 }
 .list {
+    margin-top:0;
     display: inline-block;
-    text-align:left
+    text-align: left;
 }
 
 .home-link {
